@@ -1,0 +1,15 @@
+[package]
+name = "plant-paladin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+chrono = { version = "0.4.24", features = ["serde"] }
+clap = { version = "4.2.1", features = ["derive"] }
+directories = "5.0.0"
+posix-cli-utils = { git = "https://github.com/ykrist/posix-cli-utils.git", version = "0.2.0" }
+serde = { version = "1.0.160", features = ["derive"] }
+toml = "0.7.3"
